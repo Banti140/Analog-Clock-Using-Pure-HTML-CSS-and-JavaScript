@@ -16,13 +16,13 @@
             </b>
       </article>
 
-      <p>Date: <span id="datetime"></span></p>
+      <p>Date: <span id="datetime"></span>
 
       <script>
       var dt = new Date();
       document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear());
       </script>
-
+    </p>
 
      <input id="alarmTime" type="datetime-local">
 	<button id="alarmButton" onclick="setAlarm(this);">Set Alarm</button>
