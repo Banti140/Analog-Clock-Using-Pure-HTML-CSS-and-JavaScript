@@ -35,3 +35,17 @@
     opacity: 0.8; 
     
 }
+
+#article{
+    color: blue;
+}
+
+p{
+    color:black;
+    font-size: 200%;
+    text-align: center;
+}
+
+body {
+    background-color: powderblue;
+  }
